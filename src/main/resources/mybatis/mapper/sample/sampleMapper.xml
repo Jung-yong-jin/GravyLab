@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.kr.gravy.rest.sample.mapper.SampleMapper">
+ 	<select id="sampleSelectA" resultType="SampleDTO">
+ 		SELECT 'GOD' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD1' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD2' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD3' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD4' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD5' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD6' AS NAME
+ 		UNION ALL
+ 		SELECT 'GOD7' AS NAME
+ 	</select>
+ 	
+ 	<select id="sampleSelectB" resultType="SampleDTO">
+ 		SELECT ID, NAME, AGE
+ 		  FROM tb_gl_sample
+ 	</select>
+ 	
+</mapper>

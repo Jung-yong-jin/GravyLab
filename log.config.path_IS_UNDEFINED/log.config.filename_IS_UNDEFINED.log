@@ -1,0 +1,55 @@
+DEBUG 21-06-03 10:35:14[background-preinit] [o.j.logging:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+INFO  21-06-03 10:35:14[background-preinit] [o.h.v.i.u.Version:21] - HV000001: Hibernate Validator 6.1.7.Final
+INFO  21-06-03 10:35:14[restartedMain] [c.k.g.GravyLabApplication:55] - Starting GravyLabApplication using Java 1.8.0_251 on DESKTOP-GH4AU9Q with PID 31696 (D:\project framework\spring boot jpa\workspace\GravyLab\target\classes started by jin in D:\project framework\spring boot jpa\workspace\GravyLab)
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.x.c.ValidationXmlParser:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+DEBUG 21-06-03 10:35:14[restartedMain] [c.k.g.GravyLabApplication:56] - Running with Spring Boot v2.4.2, Spring v5.3.3
+INFO  21-06-03 10:35:14[restartedMain] [c.k.g.GravyLabApplication:660] - No active profile set, falling back to default profiles: default
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.SpringApplication:688] - Loading source class co.kr.gravy.GravyLabApplication
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.x.c.ResourceLoaderHelper:60] - Trying to load META-INF/validation.xml via TCCL
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.x.c.ResourceLoaderHelper:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.x.c.ValidationXmlParser:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.r.TraversableResolvers:93] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.r.TraversableResolvers:103] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.m.ResourceBundleMessageInterpolator:172] - Loaded expression factory via original TCCL
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.d.r.ChangeableUrls:252] - Matching URLs for reloading : [file:/D:/project%20framework/spring%20boot%20jpa/workspace/GravyLab/target/classes/]
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.d.s.DevToolsSettings:252] - Included patterns for restart : []
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.d.s.DevToolsSettings:252] - Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
+INFO  21-06-03 10:35:14[restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  21-06-03 10:35:14[restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:634] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21bb6e1a
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.f.s.DefaultListableBeanFactory:225] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.b.f.s.DefaultListableBeanFactory:225] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:435] - Identified candidate component class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\common\error\ControllerExceptionHandler.class]
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:435] - Identified candidate component class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\config\EnvironmentConfig.class]
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+DEBUG 21-06-03 10:35:14[background-preinit] [o.h.v.i.e.ValidatorFactoryConfigurationHelper:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:435] - Identified candidate component class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\rest\sample\controller\SampleController.class]
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:441] - Ignored because not a concrete top-level class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\rest\sample\mapper\SampleMapper.class]
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:441] - Ignored because not a concrete top-level class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\rest\sample\repository\SampleRepository.class]
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:435] - Identified candidate component class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\rest\sample\service\impl\SampleServiceImpl.class]
+DEBUG 21-06-03 10:35:14[restartedMain] [o.s.c.a.ClassPathBeanDefinitionScanner:435] - Identified candidate component class: file [D:\project framework\spring boot jpa\workspace\GravyLab\target\classes\co\kr\gravy\web\sample\controller\WebSampleController.class]
+DEBUG 21-06-03 10:35:18[background-preinit] [o.j.logging:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+INFO  21-06-03 10:35:18[background-preinit] [o.h.v.i.u.Version:21] - HV000001: Hibernate Validator 6.1.7.Final
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.x.c.ValidationXmlParser:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+INFO  21-06-03 10:35:18[restartedMain] [c.k.g.GravyLabApplication:55] - Starting GravyLabApplication using Java 1.8.0_251 on DESKTOP-GH4AU9Q with PID 4204 (D:\project framework\spring boot jpa\workspace\GravyLab\target\classes started by jin in D:\project framework\spring boot jpa\workspace\GravyLab)
+DEBUG 21-06-03 10:35:18[restartedMain] [c.k.g.GravyLabApplication:56] - Running with Spring Boot v2.4.2, Spring v5.3.3
+INFO  21-06-03 10:35:18[restartedMain] [c.k.g.GravyLabApplication:660] - No active profile set, falling back to default profiles: default
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.x.c.ResourceLoaderHelper:60] - Trying to load META-INF/validation.xml via TCCL
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.SpringApplication:688] - Loading source class co.kr.gravy.GravyLabApplication
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.x.c.ResourceLoaderHelper:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.x.c.ValidationXmlParser:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.e.r.TraversableResolvers:93] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.i.e.r.TraversableResolvers:103] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG 21-06-03 10:35:18[background-preinit] [o.h.v.m.ResourceBundleMessageInterpolator:172] - Loaded expression factory via original TCCL
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.d.r.ChangeableUrls:252] - Matching URLs for reloading : [file:/D:/project%20framework/spring%20boot%20jpa/workspace/GravyLab/target/classes/]
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.d.s.DevToolsSettings:252] - Included patterns for restart : []
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.d.s.DevToolsSettings:252] - Excluded patterns for restart : [/spring-boot-actuator/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot/(bin|build|out)/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/]
+INFO  21-06-03 10:35:18[restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  21-06-03 10:35:18[restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:634] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@200c89e5
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.f.s.DefaultListableBeanFactory:225] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG 21-06-03 10:35:18[restartedMain] [o.s.b.f.s.DefaultListableBeanFactory:225] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
